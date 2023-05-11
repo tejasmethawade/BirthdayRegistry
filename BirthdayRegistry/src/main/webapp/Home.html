@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BirthdayRegistry</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="container-fluid card " style="width:40rem">
+	<h2 class="bg-danger text-white text-center">Birthday Registation</h2>
+	<form action="register" method="post">
+		<table class="table table-hover">
+			<tr>
+				<td>Person Name</td>
+				<td> <input type="text" name="Pname"> </td>
+			</tr>
+			
+			<tr>
+				<td>Date of Birth</td>
+				<td><input type="date" name="Bdate"></td>
+			</tr> 
+			
+			<tr>
+				<td><input type="submit" value="register" class="btn btn-outline-success"> </td>
+				<td><input type="reset" value="cancel" class="btn btn-outline-danger"> </td>
+			</tr> 
+			
+		</table>
+		
+	</form>
+	<a href='FetchList'>Get the List</a>
+	<br/>
+	<h6>Today's Birthdays</h6>
+</body>
+</html>
